@@ -6,7 +6,7 @@ document.body.innerHTML = document.body.innerHTML.replace(/(wild)/gi, String.fro
 // Replace with 🤔
 document.body.innerHTML = document.body.innerHTML.replace(/(thinking|hmm)/gi, String.fromCodePoint('0x1F914'));
 // Replace with 💀
-document.body.innerHTML = document.body.innerHTML.replace(/(dead|lmfao|lmao)/gi, String.fromCodePoint('0x1F480'));
+document.body.innerHTML = document.body.innerHTML.replace(/(dead|lmfao|lmao|dying|died)/gi, String.fromCodePoint('0x1F480'));
 // Replace with 🔥
 document.body.innerHTML = document.body.innerHTML.replace(/(lit|fire|flame|flames|fuego|litty|hot)/gi, String.fromCodePoint('0x1F525'));
 // Replace with 😏
