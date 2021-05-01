@@ -12,7 +12,7 @@ document.body.innerHTML = document.body.innerHTML.replace(/(lit|fire|flame|flame
 // Replace with 😏
 document.body.innerHTML = document.body.innerHTML.replace(/(smug|smirk|sexy)/gi, String.fromCodePoint('0x1F60F'));
 // Replace with 🥶
-document.body.innerHTML = document.body.innerHTML.replace(/(cold|icy|icey|brr|ice)/gi, String.fromCodePoint('0x1F976'));
+document.body.innerHTML = document.body.innerHTML.replace(/(cold|icy|icey|brr|ice|cool)/gi, String.fromCodePoint('0x1F976'));
 // Replace with 😳
 document.body.innerHTML = document.body.innerHTML.replace(/(wow|woah)/gi, String.fromCodePoint('0x1F633'));
 // Replace with 🤡
