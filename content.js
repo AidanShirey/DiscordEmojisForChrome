@@ -19,3 +19,8 @@ document.body.innerHTML = document.body.innerHTML.replace(/(wow|woah)/gi, String
 document.body.innerHTML = document.body.innerHTML.replace(/(clown|fool)/gi, String.fromCodePoint('0x1F921'));
 // Replace with 🤠
 document.body.innerHTML = document.body.innerHTML.replace(/(partner|yeha|yee)/gi, String.fromCodePoint('0x1F920'));
+// Replace with 😎
+document.body.innerHTML = document.body.innerHTML.replace(/pro/gi, String.fromCodePoint('0x1F60E'));
+// Replace with 🍃
+document.body.innerHTML = document.body.innerHTML.replace(/(loud)/gi, String.fromCodePoint('0x1F343'));
+
